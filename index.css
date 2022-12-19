@@ -1,0 +1,39 @@
+.category {
+    height: 500px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    border: 3px solid black;
+    width: 30%;
+    margin: 30px;
+    text-align: center;
+    background-color: #609CE1;
+}
+
+.col a {
+    text-decoration: none;
+    color: black;
+}
+
+.category img {
+    height: auto;
+    width: 100%;
+}
+
+.description {
+    width: 95%;
+    background-color: #E1ECF9;
+    margin: auto;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    padding: 10px 20px 10px 20px;
+    text-align: justify;
+}
+
+.description h2 {
+    text-align: center;
+}
