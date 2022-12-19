@@ -15,6 +15,30 @@ body {
     justify-content: center;
 }
 
+.menu {
+    background-color: #609CE1;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.menu ul {
+    background-color: yellow;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+    float: left;
+    padding: 0px 20px;
+    margin: 0px;
+    
+}
+
 .category {
     height: 500px;
     margin: 40px;
