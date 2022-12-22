@@ -29,11 +29,16 @@
     background-color: #E1ECF9;
     margin: auto;
     font-size: 1.2em;
-    margin-bottom: 40px;
+    
     padding: 10px 20px 10px 20px;
     text-align: justify;
 }
 
 .description h2 {
     text-align: center;
+}
+
+.description h2:active {
+    font-size: 3em;
+    color: red;
 }

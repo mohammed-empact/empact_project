@@ -5,6 +5,8 @@
 body {
     background-color: #236AB9;
     margin: 0px;
+    padding-bottom: 240px;
+    position: relative;
 }
 
 .header {
@@ -38,7 +40,6 @@ body {
     margin: 0px;
 }
 
-/*------------------ Today */
 .staff_btn {
     position: relative;
 }
@@ -59,9 +60,25 @@ body {
     background-color: #091D34;
     color: white;
 }
-/*------------------ End */
 
 .menu a {
     text-decoration: none;
     color: black;
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: #091D34;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    
+    position: absolute;
+    bottom: 0;
+}
+
+.footer img {
+    height: 80px;
 }

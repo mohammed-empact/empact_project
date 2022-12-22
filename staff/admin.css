@@ -6,7 +6,7 @@ h1{
     text-align: center;
 }
 
-div {
+.table {
     display: flex;
     justify-content: center;
 }
