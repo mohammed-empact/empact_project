@@ -1,0 +1,24 @@
+.apply {
+    background-color: #E1ECF9;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text], input[type=email]{
+    width: 400px;
+    padding: 8px;
+    border: 3px solid red;
+    border-radius: 15px;
+}
+
+input[type=number]:focus {
+    background-color:black;
+    color: white;
+}
+
+.apply option {
+    font-size: 3em;
+}
